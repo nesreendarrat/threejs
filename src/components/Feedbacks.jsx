@@ -48,7 +48,7 @@ export default class Testimonials extends Component {
         </div>
 
         <div>
-          <img src="https://media.licdn.com/dms/image/D4D03AQE633CKmG2pFg/profile-displayphoto-shrink_800_800/0/1677216737270?e=2147483647&v=beta&t=B9NNzKLHF-VPEF8Os4DMtgeooUO1qq7qmTLsdRCb9Mg" />
+          <img src="https://media.licdn.com/dms/image/C4D22AQEUeMDfsMKqQw/feedshare-shrink_800/0/1679587771009?e=1682553600&v=beta&t=8fwZk9d2zbe4NES-rOtbuG_2No1C4mwunkHt9zQvjAg" />
           <div className="myCarousel">
             <h3> zyad shadi</h3>
             <h4>crisis management director at astro</h4>
