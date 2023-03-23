@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-import "../components/Testimonial.css"
+import "./Testimonial.css"
 
 export default class Testimonials extends Component {
   render() {
@@ -15,7 +15,7 @@ export default class Testimonials extends Component {
         interval={5000}
       >
         <div>
-          <img src="/public/images/IMG_47702.JPG" />
+          <img src="/src/assets/images/IMG_47702.JPG" />
           <div className="myCarousel">
             <h3>Mohamed Alhamshri</h3>
             <h4>CEO of Saver co for cyber security</h4>
@@ -26,7 +26,7 @@ export default class Testimonials extends Component {
         </div>
 
         <div>
-          <img src="/public/images/7822B1AF-76A4-4465-8322-F3534C673378_1_201_a.jpeg" />
+          <img src="/src/assets/images/7822B1AF-76A4-4465-8322-F3534C673378_1_201_a.jpeg" />
           <div className="myCarousel">
             <h3>Hussen Shambesh</h3>
             <h4>Technical Director</h4>
@@ -37,7 +37,7 @@ export default class Testimonials extends Component {
         </div>
 
         <div>
-          <img src="/public/images/1673081065560.jpeg" />
+          <img src="/src/assets/images/1673081065560.jpeg" />
           <div className="myCarousel">
             <h3>Ahmed Awji</h3>
             <h4>software engineer</h4>
@@ -48,7 +48,7 @@ export default class Testimonials extends Component {
         </div>
 
         <div>
-          <img src="/public/images/IMG_32332.JPG" />
+          <img src="/src/assets/images/IMG_32332.JPG" />
           <div className="myCarousel">
             <h3> zyad shadi</h3>
             <h4>crisis management director at astro</h4>
