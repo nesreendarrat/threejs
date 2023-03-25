@@ -1,18 +1,12 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-import { ToastContainer, toast } from 'react-toastify';
-import style from "./style.module.css";
-import css from "classnames";
-import 'react-toastify/dist/ReactToastify.css';
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
-// k36njRdSNti_nlOvv
-// template_8kg4oya
-// service_qny919e
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
